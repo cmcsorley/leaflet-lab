@@ -24,6 +24,7 @@ function callback(response, status, jqXHRobject){
     console.log(response);
     
     //for each element, add a circle at the lat and long coordinates
+    
     for(var i=0; i<20; i++){
         var long = response.features[i].geometry.coordinates[0];
         var lat = response.features[i].geometry.coordinates[1];
@@ -32,7 +33,7 @@ function callback(response, status, jqXHRobject){
             color: 'red',
             fillColor: '#f03',
             fillOpacity: 0.5,
-            radius: 500
+            radius: (response.features[i].properties.y1990)/1.5
         }).addTo(mymap);
 }
 
