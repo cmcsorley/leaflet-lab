@@ -93,8 +93,8 @@ function updatePropSymbols(map, attribute,type){
             var radius = calcPropRadius(props[attribute]);
             layer.setRadius(radius);
             
-            //change the popup based on whether visualizing country or regional dat
-            if(type=="Country"){
+            //change the popup based on whether visualizing country or regional data
+            if(type=="country"){
             //add city to popup content string
             var popupContent = "<p><b>Country:</b> " + props.Country + "</p>";
             } else {

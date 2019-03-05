@@ -1,6 +1,7 @@
 /* Stylesheet by Catherine McSorley, 2019 */
 #mapid {
     height : 250px;
+    top: 10px;
 }
 
 .leaflet-popup-content p {
@@ -9,7 +10,7 @@
 
 #panel {
     width: 32%;
-    padding: 5px;
+    padding: 15px;
     display: inline-block;
     vertical-align: right;
 }
