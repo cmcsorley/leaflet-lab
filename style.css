@@ -1,18 +1,36 @@
 /* Stylesheet by Catherine McSorley, 2019 */
 #mapid {
-    height : 250px;
-    top: 10px;
+    height : 80vh;
+    width: 95vw;
+    display: inline-block;
 }
 
 .leaflet-popup-content p {
     margin: 0.2em 0;
 }
 
-#panel {
-    width: 32%;
-    padding: 15px;
-    display: inline-block;
-    vertical-align: right;
+.sequence-control-container {
+    width: 350px;
+    height: 30px;
+    background-color: rgba(255,255,255,0.8);
+    padding: 10px;
+    line-height: 45px;
+    text-align: center;
+    border: solid gray 1px;
+}
+
+.range-slider {
+    width: 260px;
+}
+
+.legend-control-container {
+    width: 100px;
+    height: 100px;
+    background-color: rgba(255,255,255,0.8);
+    padding: 10px;
+    line-height: 10px;
+    text-align: center;
+    border: solid gray 1px;
 }
 
 .form-radio
